@@ -19,6 +19,7 @@ class App extends Component {
     this.setState({random: Math.floor(Math.random() * this.state.questions[this.state.topic].length)})
     this.setState({showAnswer: false});
   }
+  
   showAnswer = () =>{
     this.setState({showAnswer: true});
   }
