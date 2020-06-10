@@ -54,15 +54,17 @@ class App extends Component {
               </div>
 
               <div className="row">
-                <div className="col-md-2 ">
+                <div className="col-md-3 ">
                 </div>
                 <div className="col-md-6">
                     {question}
                     {this.state.showAnswer? answer:''}
-                    <button className="btn btn-primary" onClick={this.showAnswer}>showAnswer</button>
-                    <button className="btn btn-info" onClick={this.generateRandom}>New Question</button>
+                    <br></br>
+                      <button type="button" className="btn btn-sm btn-primary" onClick={this.showAnswer}>showAnswer</button> 
+
+                      {this.state.topic? <button  type="button" className="btn btn-sm btn-info" onClick={this.generateRandom}>New Question</button>:''}
                 </div>
-                <div className="col-md-2 ">
+                <div className="col-md-3 ">
                 </div>      
 
               </div>

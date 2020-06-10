@@ -18,9 +18,64 @@ const testAutomation = [
         answer:"3"
     }
 ]
+const angular = [
+    {
+        question: "h324i",
+        answer:"1"
+    },
+    {
+        question:"hi2",
+        answer:"3"
+    }
+]
+const servlets = [
+    {
+        question: "h324i",
+        answer:"1"
+    },
+    {
+        question:"hi2",
+        answer:"3"
+    }
+]
+const spring = [
+    {
+        question: "h324i",
+        answer:"1"
+    },
+    {
+        question:"hi2",
+        answer:"3"
+    }
+]
+const hibernate = [
+    {
+        question: "h324i",
+        answer:"1"
+    },
+    {
+        question:"hi2",
+        answer:"3"
+    }
+]
+const postgres = [
+    {
+        question: "h324i",
+        answer:"1"
+    },
+    {
+        question:"hi2",
+        answer:"3"
+    }
+]
 const flashcardData = {
     java:java,
-    testAutomation:testAutomation
+    testAutomation:testAutomation,
+    angular:angular,
+    servlets:servlets,
+    spring:spring,
+    hibernate:hibernate,
+    postgres:postgres
 };
 
 
