@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import flashcardData from './flashcard-data/flashcardData';
 
